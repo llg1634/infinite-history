@@ -36,6 +36,14 @@ unlimited history, unlimited browser history, Chrome unlimited history, Edge unl
 - Provides no UI for deletion, cleanup, blacklisting, or automatic cleanup.
 - Clearing Chrome's own history does not remove the independent IndexedDB archive.
 
+## Install From Release
+
+1. Download `infinite-history-chrome-mv3-v1.0.0.zip` from the project's [Releases](../../releases).
+2. Extract the ZIP file to any local directory.
+3. Open `chrome://extensions/` in Chrome or `edge://extensions/` in Edge, then enable Developer mode.
+4. Click **Load unpacked** and select the extracted directory that directly contains `manifest.json`.
+5. After the extension loads, open `chrome://history/` to use Infinite History.
+
 ## Development
 
 ```bash

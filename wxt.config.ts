@@ -4,7 +4,7 @@ export default defineConfig({
   modules: ["@wxt-dev/module-react"],
   manifest: {
     name: "Infinite History",
-    description: "Better History 风格的本地无限浏览历史归档与导出工具。",
+    description: "本地优先的无限浏览历史归档与导出工具。",
     permissions: [
       "alarms",
       "favicon",

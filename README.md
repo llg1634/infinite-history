@@ -36,6 +36,14 @@
 - 界面中不存在删除、清理、黑名单或自动清理入口。
 - Chrome 清理自身历史不会删除 IndexedDB 中的独立归档。
 
+## 安装 Release
+
+1. 从项目的 [Releases](../../releases) 下载 `infinite-history-chrome-mv3-v1.0.0.zip`。
+2. 将 ZIP 文件完整解压到本地任意目录。
+3. 在 Chrome 打开 `chrome://extensions/`，或在 Edge 打开 `edge://extensions/`，然后开启“开发者模式”。
+4. 点击“加载已解压的扩展程序”，选择解压后直接包含 `manifest.json` 的目录。
+5. 扩展加载完成后，打开 `chrome://history/` 即可启用 Infinite History。
+
 ## 开发
 
 ```bash
