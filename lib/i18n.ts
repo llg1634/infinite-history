@@ -42,6 +42,14 @@ export interface Messages {
   searchScopeNote: string;
   previousDay: string;
   nextDay: string;
+  openCalendar: string;
+  closeCalendar: string;
+  previousYear: string;
+  nextYear: string;
+  previousMonth: string;
+  nextMonth: string;
+  calendarYear: string;
+  calendarMonth: string;
   sameLinkVisits(count: number): string;
   readOnlyActions: string;
   searchDomain: string;
@@ -128,6 +136,14 @@ const zhMessages: Messages = {
   searchScopeNote: "正在搜索全部本地归档。清空关键词后恢复日期时间线。",
   previousDay: "前一天",
   nextDay: "后一天",
+  openCalendar: "打开日期选择",
+  closeCalendar: "关闭日期选择",
+  previousYear: "上一年",
+  nextYear: "下一年",
+  previousMonth: "上一个月",
+  nextMonth: "下一个月",
+  calendarYear: "选择年份",
+  calendarMonth: "选择月份",
   sameLinkVisits: (count) => `此链接当天访问 ${numberFor(count, "zh-CN")} 次`,
   readOnlyActions: "只读操作",
   searchDomain: "搜索此域名",
@@ -219,6 +235,14 @@ const enMessages: Messages = {
   searchScopeNote: "Searching the entire local archive. Clear the query to return to the date timeline.",
   previousDay: "Previous day",
   nextDay: "Next day",
+  openCalendar: "Open date picker",
+  closeCalendar: "Close date picker",
+  previousYear: "Previous year",
+  nextYear: "Next year",
+  previousMonth: "Previous month",
+  nextMonth: "Next month",
+  calendarYear: "Select year",
+  calendarMonth: "Select month",
   sameLinkVisits: (count) => `Visited this link ${englishCount(count, "time")} that day`,
   readOnlyActions: "Read-only actions",
   searchDomain: "Search this domain",

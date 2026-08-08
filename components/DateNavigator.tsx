@@ -1,4 +1,6 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { CalendarDays, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
+import { CalendarPopover } from "./CalendarPopover";
 import { addDays, formatShortDate, startOfDay } from "../lib/date-utils";
 import { useI18n } from "../lib/i18n";
 import type { DateFormat, UiLanguage } from "../lib/types";
@@ -24,6 +26,7 @@ export function DateNavigator({
   onChange,
 }: DateNavigatorProps) {
   const { language, t } = useI18n();
+  const [calendarOpen, setCalendarOpen] = useState(false);
   const days = [-2, -1, 0, 1, 2].map((offset) => addDays(selectedDate, offset).getTime());
 
   return (
@@ -66,6 +69,28 @@ export function DateNavigator({
           >
             <ChevronRight />
           </button>
+          <div className="calendar-anchor">
+            <button
+              className={calendarOpen ? "pagination-arrow calendar-button active" : "pagination-arrow calendar-button"}
+              type="button"
+              aria-label={t.openCalendar}
+              title={t.openCalendar}
+              aria-expanded={calendarOpen}
+              onClick={() => setCalendarOpen((open) => !open)}
+            >
+              <CalendarDays />
+            </button>
+            {calendarOpen ? (
+              <CalendarPopover
+                selectedDate={selectedDate}
+                onChange={(timestamp) => {
+                  onChange(timestamp);
+                  setCalendarOpen(false);
+                }}
+                onClose={() => setCalendarOpen(false)}
+              />
+            ) : null}
+          </div>
         </div>
       )}
     </div>
