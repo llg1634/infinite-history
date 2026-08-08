@@ -1,6 +1,6 @@
 # Infinite History
 
-Search Keywords: history only keeps 90 days, history disappears after 90 days, history auto deleted, history cleared, browser history missing, history limit, bypass history limit, unlimited history, unlimited history extension, unlimited browser history, Chrome unlimited history, Edge unlimited history, Chrome/Edge unlimited history extension, unlimited history plugin, history permanently saved, history stored locally, history backup, history export, history export CSV, history export JSON, history visits merged. 历史记录只能保留90天, 历史记录90天后没了, 历史记录自动删除, 历史记录被清空了, 浏览器历史记录不见了, 历史记录上限, 历史记录突破上限, 无限历史记录, 无限历史记录扩展, 浏览器无限历史记录, Chrome 无限历史记录, Edge 无限历史记录, 无限历史记录插件, 历史记录永久保存, 历史记录本地保存, 历史记录备份, 历史记录导出, 历史记录导出CSV, 历史记录导出JSON, 历史记录合并显示.
+Search Keywords: unlimited history, unlimited history extension, unlimited history plugin, unlimited browser history, Chrome unlimited history, Edge unlimited history, Chrome/Edge unlimited history extension, history only keeps 90 days, history disappears after 90 days, history auto deleted, history cleared, browser history missing, history limit, bypass history limit, history permanently saved, history stored locally, history backup, history export, history export CSV, history export JSON, history visits merged. 无限历史记录, 无限历史记录扩展, 无限历史记录插件, 浏览器无限历史记录, Chrome 无限历史记录, Edge 无限历史记录, Chrome/Edge 无限历史记录扩展, 历史记录只能保留90天, 历史记录90天后没了, 历史记录自动删除, 历史记录被清空了, 浏览器历史记录不见了, 历史记录上限, 历史记录突破上限, 历史记录永久保存, 历史记录本地保存, 历史记录备份, 历史记录导出, 历史记录导出CSV, 历史记录导出JSON, 历史记录合并显示.
 
 [中文说明](README.md)
 
