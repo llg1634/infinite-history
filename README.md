@@ -36,7 +36,7 @@
 
 ## 安装 Release
 
-1. 从项目的 [Releases](../../releases) 下载 `infinite-history-chrome-mv3-v1.0.0.zip`。
+1. 从项目的 [Releases](../../releases) 下载 `infinite-history-chrome-mv3-v1.1.0.zip`。
 2. 将 ZIP 文件完整解压到本地任意目录。
 3. 在 Chrome 打开 `chrome://extensions/`，或在 Edge 打开 `edge://extensions/`，然后开启“开发者模式”。
 4. 点击“加载已解压的扩展程序”，选择解压后直接包含 `manifest.json` 的目录。

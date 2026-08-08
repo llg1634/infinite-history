@@ -36,7 +36,7 @@ Archiving, search, date navigation, and export all run locally. The extension ne
 
 ## Install From Release
 
-1. Download `infinite-history-chrome-mv3-v1.0.0.zip` from the project's [Releases](../../releases).
+1. Download `infinite-history-chrome-mv3-v1.1.0.zip` from the project's [Releases](../../releases).
 2. Extract the ZIP file to any local directory.
 3. Open `chrome://extensions/` in Chrome or `edge://extensions/` in Edge, then enable Developer mode.
 4. Click **Load unpacked** and select the extracted directory that directly contains `manifest.json`.
